@@ -35,3 +35,4 @@ url.replace('%20','-')    // replace %20 with -
 
 console.log(gameName.split('-'));
 
+ 
