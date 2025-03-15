@@ -45,10 +45,46 @@ const users = [
 users[1].email
 console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));  // run keys methos on the object tinderUser
+console.log(Object.keys(tinderUser));  // run keys method on the object tinderUser
 console.log(Object.values(tinderUser));  
 console.log(Object.entries(tinderUser));  
 // keys are:- keys_name: its_value,
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));  
 // check if the specific peoperty is persent on a specific object or not
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "jainam"
+}
+
+// course.courseInstructor
+
+// here is a better syntax to do the above thing 
+const {courseInstructor: instructor} = course  // const {name of key(coursename,price,etc,etc.): the name we want to give} = name of object
+// It extracts courseInstructor from course and stores it in a variable of the same name.
+
+// { courseInstructor: instructor } = course;
+// Left Side: courseInstructor: instructor means:
+// Extract courseInstructor
+// Store it in a variable named instructor
+// Right Side: = course means take values from course object.
+
+console.log(courseInstructor);
+
+// below given is json api
+
+// {
+//     "name": "jainam",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+// below given is api in form of array
+
+[
+    {},
+    {},
+    {}
+]
