@@ -26,14 +26,14 @@ const user = {
 // }
 
 
-// given below is an arrow function it's declaed as it is shown 
+// given below is an arrow function it's declared as it is shown 
 // syntax :- () => {}
 const chai = () => {
     let username = "jainam"
     console.log(this.username)
 }
 
-// chai()
+chai()
 
 // below given is normal arrow function
 

@@ -33,6 +33,6 @@ url.replace('%20','-')    // replace %20 with -
 
 // console.log(url.includes('jaina'));
 
-console.log(gameName.split('-'));
+// console.log(gameName.split('-'));
 
  
