@@ -13,17 +13,17 @@
 
 // Array methods
 
-// myArr.push(6)
+// myArr.push(6) // add at end
 // myArr.push(7)
-// myArr.pop()
+// myArr.pop() // remove from end
 
-// myArr.unshift(9)
-// myArr.shift()
+// myArr.unshift(9) // add at start
+// myArr.shift() // remove from start
 
 // console.log(myArr.includes(9));
 // console.log(myArr.indexOf(3));
 
-const newArr = myArr.join()
+const newArr = myArr.join() // join all elements of string into a string soo type of newArr is string
 
 // console.log(myArr);
 // console.log(typeof newArr);
@@ -32,12 +32,12 @@ const newArr = myArr.join()
 
 console.log("A ",myArr);
 
-const myn1 = myArr.slice(1, 3)
+const myn1 = myArr.slice(1, 3) // slice takes the 1st index and goes till 2nd-1 th index and copies it. It does not change the original array
 
 console.log(myn1);
 console.log("B ",myArr);
 
-const myn2 = myArr.splice(1, 3)
+const myn2 = myArr.splice(1, 3) // same as slice but this changes the original array 
 console.log(myn2);
 console.log("C ",myArr);
   
