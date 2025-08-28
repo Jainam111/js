@@ -21,17 +21,17 @@ let myTimeStamp = Date.now()
 // console.log(myCreatedDate.getTime());
 // console.log(Math.floor(Date.now()/1000)); 
 
-let newDate = new Date()
+let newDate = new Date()  // sets newDate as per system's date
 // console.log(newDate);
-// console.log(newDate.getHours());
+// console.log(newDate.getHours()); 
 // console.log(newDate.getMonth() + 1);
-// console.log(newDate.getDay());
+// console.log(newDate.getDay()); // days like monday = 1, tuesday = 2......
 
 // ${newDate.getDay()} and the time is
 
-newDate.toLocaleString('default',{
+console.log(newDate.toLocaleString('default',{
     weekday: "long"                                         
-})                      
+}))                      
 // Many properties like this can be used to costumize the dates more 
 // to see all of them press ctrl + space     
  
